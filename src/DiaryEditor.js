@@ -31,6 +31,7 @@ const DiaryEditor = () => {
 				<textarea name='content' value={state.content} onChange={handleChangeState} />
 			</div>
 			<div>
+				<span>오늘의 감정점수 : </span>
 				<select name='emotion' value={state.emotion} onChange={handleChangeState}>
 					<option value={1}>1</option>
 					<option value={2}>2</option>
